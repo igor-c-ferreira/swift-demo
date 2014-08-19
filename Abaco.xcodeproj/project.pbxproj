@@ -12,6 +12,8 @@
 		AD22BCD7199FE1A700887EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD22BCD5199FE1A700887EBC /* Main.storyboard */; };
 		AD22BCD9199FE1A700887EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD22BCD8199FE1A700887EBC /* Images.xcassets */; };
 		AD22BCE5199FE1A700887EBC /* AbacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22BCE4199FE1A700887EBC /* AbacoTests.swift */; };
+		AD22BCF5199FF12D00887EBC /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22BCF4199FF12D00887EBC /* DetalhesViewController.swift */; };
+		AD22BCF719A001AB00887EBC /* Dados.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD22BCF619A001AB00887EBC /* Dados.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		AD22BCDE199FE1A700887EBC /* AbacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD22BCE3199FE1A700887EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD22BCE4199FE1A700887EBC /* AbacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacoTests.swift; sourceTree = "<group>"; };
+		AD22BCF4199FF12D00887EBC /* DetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		AD22BCF619A001AB00887EBC /* Dados.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dados.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				AD22BCD5199FE1A700887EBC /* Main.storyboard */,
 				AD22BCD8199FE1A700887EBC /* Images.xcassets */,
 				AD22BCCF199FE1A700887EBC /* Supporting Files */,
+				AD22BCF4199FF12D00887EBC /* DetalhesViewController.swift */,
+				AD22BCF619A001AB00887EBC /* Dados.plist */,
 			);
 			path = Abaco;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD22BCD7199FE1A700887EBC /* Main.storyboard in Resources */,
+				AD22BCF719A001AB00887EBC /* Dados.plist in Resources */,
 				AD22BCD9199FE1A700887EBC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +217,7 @@
 			files = (
 				AD22BCD4199FE1A700887EBC /* ViewController.swift in Sources */,
 				AD22BCD2199FE1A700887EBC /* AppDelegate.swift in Sources */,
+				AD22BCF5199FF12D00887EBC /* DetalhesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,7 @@
 				AD22BCEA199FE1A700887EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD22BCEB199FE1A700887EBC /* Build configuration list for PBXNativeTarget "AbacoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				AD22BCED199FE1A700887EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
